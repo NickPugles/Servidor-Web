@@ -25,8 +25,8 @@ echo "Valor total em estoque de todos os produtos: R$ " . number_format($valorTo
     // 3)
     $alunos = array(
         array('<br>'.'nome' => 'Agatha', 'matematica' => 8.5, 'portugues' => 10),
-        array('<br>'.'nome' => 'Theo', 'matematica' => 5, 'portugues' => 8),
-        array('<br>'.'nome' => 'Helena', 'matematica' => 10, 'portugues' => 2)
+        array('<br>'.'nome' => 'Theo', 'matematica' => 9, 'portugues' => 8),
+        array('<br>'.'nome' => 'Helena', 'matematica' => 10, 'portugues' => 9)
     );
     echo '<br><br>';
     // Nome de cada aluno e suas notas
