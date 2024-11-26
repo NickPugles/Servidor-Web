@@ -10,7 +10,7 @@ $produtos = [
     // Nome e o preço de todos os produtos
     echo "Produtos e seus preços: ".'<br>';
     foreach ($produtos as $nome => $informacoes) {
-    echo "- $nome: R$ " . number_format($informacoes["preco"], 2, ",", ".") ." ";
+    echo "$nome: R$ " . number_format($informacoes["preco"], 2, ",", ".") ." ";
 }
 echo '<br><br>';
 
@@ -34,7 +34,7 @@ echo "Notas dos alunos: ".'<br>';
 foreach ($alunos as $nome => $notas) {
    echo "Aluno: $nome".'<br>';
    foreach ($notas as $disciplina => $nota) {
-       echo "- $disciplina: $nota".'<br>';
+       echo "$disciplina: $nota".'<br>';
    }
 }
 echo '<br><br>';
@@ -42,6 +42,6 @@ echo '<br><br>';
 echo "Médias dos alunos: ".'<br>';
 foreach ($alunos as $nome => $notas) {
    '<br>'.$media = array_sum($notas) / count($notas);
-   echo "- $nome: Média = ".number_format($media, 2, ",", ".").'<br>'. "";
+   echo "$nome: Média = ".number_format($media, 2, ",", ".").'<br>'. "";
 }
 ?>
